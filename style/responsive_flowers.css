@@ -3,4 +3,66 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f5f8ff;
+}
+/*? css variables */
+:root {
+  --font-noto-serif: "Noto Serif", serif;
+  --font-inter: "Inter", sans-serif;
+  --grey01: #8987A1;
+  --gray02: #6B7280;
+  --black01: #111111;
+  --black02: #252432;
+  --orang01: #E95A08;
+  --font22px: 1.20rem;
+}
+/*? css variables */
+
+/*? css shared/common property */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.display_flex {
+  display: flex;
+}
+.display_grid {
+  display: grid;
+}
+/*? css shared/common property */
+
+/*? header section Starts here */
+/*? navbar section Starts here */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 20px;
+}
+.nav_links {
+  align-items: center;
+  gap: 40px;
+}
+.nav_link {
+  align-items: center;
+  gap: 40px;
+}
+.nav_link li {
+  list-style: none;
+}
+.nav_link a {
+  text-decoration: none;
+  color: var(--grey01);
+  font-size: 1.1rem;
+}
+.nav_link .link01 {
+  color: var(--black02);
+  font-weight: 600;
+}
+.cart_icon span {
+  font-size: 1.1rem;
+}
+/*? navbar section Ends here */
+/*? header section Ends here */
+
 
