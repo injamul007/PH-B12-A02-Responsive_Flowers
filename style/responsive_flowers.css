@@ -277,6 +277,55 @@ body {
   grid-area: ana;
 }
 /*? Latest Deals section Ends here */
+
+/*? Join section Starts here */
+.join_section {
+  background-image: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 534px;
+  justify-content: center;
+  align-items: center;
+}
+.join_info_details {
+  width: 830px;
+  height: 140px;
+  border: 1px solid saddlebrown;
+}
+.join_section_title {
+  font-family: var(--font-noto-serif);
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.join_info_details form {
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+form input[type="email"] {
+  width: 80%;
+  height: 100%;
+  font-size: 1rem;
+  font-family: var(--font-inter);
+  padding-left: 20px;
+  outline: 0;
+}
+form input[type="submit"] {
+  height: 100%;
+  width: 20%;
+  background-color: var(--orang01);
+  border: 0;
+  color: white;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*? Join section Ends here */
 /*? Main section Ends here  */
 
 /*? Responsive Media Query for Small devices */
