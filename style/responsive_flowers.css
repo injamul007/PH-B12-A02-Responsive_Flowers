@@ -336,7 +336,6 @@ form input[type="submit"] {
 .footer_info_details {
   width: 1120px;
   justify-content: space-between;
-  border: 1px solid saddlebrown;
 }
 .footer_logo_and_subtitle {
   width: 330px;
@@ -361,6 +360,7 @@ form input[type="submit"] {
 }
 .social_media_links img {
   margin-left: 24px;
+  cursor: pointer;
 }
 .twitter_logo {
   margin-bottom: 12px;
@@ -504,6 +504,21 @@ form input[type="submit"] {
     height: 100%;
     width: 35%;
   }
+  .footer_section {
+    height: 864px;
+  }
+  .footer_info_details {
+    width: 96%;
+    height: 764px;
+    flex-direction: column;
+  }
+  .footer_logo_and_subtitle {
+    margin-bottom: 20px;
+  }
+  .social_media_links img {
+    margin-left: 2px;
+    margin-right: 18px;
+  }
 }
 /*? Responsive Media Query for Small devices */
 
@@ -613,6 +628,15 @@ form input[type="submit"] {
   }
   form input[type="submit"] {
     width: 30%;
+  }
+  .footer_info_details {
+    width: 92%;
+  }
+  .footer_subtitle {
+    width: 80%;
+  }
+  .footer_links {
+    margin-right: 50px;
   }
 }
 /*? Responsive Media Query for Medium devices */
