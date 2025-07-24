@@ -196,10 +196,84 @@ body {
   margin-bottom: 40px;
 }
 /*? Plants Lover section ends here */
+
+/*? Latest Deals section Starts here */
+.Latest_deals_section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.latest_deals_title span {
+  color: var(--orang01);
+}
+.latest_deals_title {
+  font-family: var(--font-noto-serif);
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.latest_deals_subtitle {
+  font-family: var(--font-inter);
+  color: var(--gray02);
+  font-size: var(--font22px);
+  width: 86%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.latest_deals_card_box {
+  gap: 20px;
+  border: 1px solid tomato;
+}
+.latest_deals_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid rgb(19, 95, 139);
+}
+.latest_deals_card_title {
+  font-family: var(--font-noto-serif);
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+.latest_deals_card_link a {
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+}
+.card_1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-bloom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.card_2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: span 2/4;
+  grid-row: span 2/2;
+}
+.card_2 h3 {
+  font-size: 2.5rem;
+}
+.card_2 a {
+  font-size: 1.8rem;
+}
+.card_3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-ana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+/*? Latest Deals section Ends here */
 /*? Main section Ends here  */
 
-/*? Responsive Media Query for Small devices */
 
+/*? Responsive Media Query for Small devices */
 @media screen and (max-width: 576px) {
   .container {
     max-width: 96%;
@@ -293,6 +367,7 @@ body {
   }
 }
 /*? Responsive Media Query for Small devices */
+
 
 /*? Responsive Media Query for Medium devices */
 @media screen and (min-width: 577px) and (max-width: 999px) {
