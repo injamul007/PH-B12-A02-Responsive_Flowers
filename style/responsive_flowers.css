@@ -89,8 +89,6 @@ body {
 }
 /*? Responsive Media Query for Small devices */ 
 
-
-
 /*? Responsive Media Query for Medium devices */ 
 @media screen and (min-width: 577px) and (max-width: 999px) {
   .container {
