@@ -59,6 +59,9 @@ body {
   color: var(--black02);
   font-weight: 600;
 }
+.cart_icon {
+  cursor: pointer;
+}
 .cart_icon span {
   font-size: 1.1rem;
 }
@@ -66,3 +69,33 @@ body {
 /*? header section Ends here */
 
 
+/*? Responsive Media Query for Small devices */ 
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 96%;
+    margin: 0 auto;
+  }
+  .nav_link {
+    display: none;
+  }
+  .nav_logo img {
+    width: 84px;
+  }
+  .cart_icon span{
+    margin-right: 8px;
+    font-size: 22px;
+  }
+}
+/*? Responsive Media Query for Small devices */ 
+
+
+
+/*? Responsive Media Query for Medium devices */ 
+@media screen and (min-width: 577px) and (max-width: 999px) {
+  .container {
+    max-width: 96%;
+    margin: 0 auto;
+  }
+}
+/*? Responsive Media Query for Medium devices */
