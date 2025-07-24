@@ -16,6 +16,8 @@ body {
   --black02: #252432;
   --orang01: #E95A08;
   --font22px: 1.20rem;
+  --font-Bold: 700;
+  --font-Semi-bold: 600;
 }
 /*? css variables */
 
@@ -66,6 +68,39 @@ body {
   font-size: 1.1rem;
 }
 /*? navbar section Ends here */
+
+/*? Banner section Starts here */
+.banner_section {
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 1px solid tomato;
+  height: 460px;
+  margin-block: 60px;
+}
+.banner_info {
+  width: 570px;
+  height: 300px;
+  border: 1px solid tomato;
+}
+.banner_title span {
+  color: var(--orang01);
+}
+.banner_title {
+  font-family: var(--font-noto-serif);
+  font-size: 4rem;
+  font-weight: var(--font-Bold);
+  margin-bottom: 20px;
+}
+.banner_subtitle {
+  font-family: var(--font-inter);
+  font-size: var(--font22px);
+  color: var(--gray02);
+}
+.banner_img {
+  border: 1px solid tomato;
+  height: 355px;
+}
+/*? Banner section Ends here */
 /*? header section Ends here */
 
 
@@ -84,7 +119,7 @@ body {
   }
   .cart_icon span{
     margin-right: 8px;
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 /*? Responsive Media Query for Small devices */ 
