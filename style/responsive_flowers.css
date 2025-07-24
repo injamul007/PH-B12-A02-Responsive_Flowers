@@ -10,12 +10,12 @@ body {
 :root {
   --font-noto-serif: "Noto Serif", serif;
   --font-inter: "Inter", sans-serif;
-  --grey01: #8987A1;
-  --gray02: #6B7280;
+  --grey01: #8987a1;
+  --gray02: #6b7280;
   --black01: #111111;
   --black02: #252432;
-  --orang01: #E95A08;
-  --font22px: 1.20rem;
+  --orang01: #e95a08;
+  --font22px: 1.2rem;
   --font-Bold: 700;
   --font-Semi-bold: 600;
 }
@@ -104,7 +104,6 @@ body {
 /*? Our Plants section starts here */
 .our_plants_section {
   text-align: center;
-  border: 1px solid orange;
   margin-block: 130px;
 }
 .our_plants_title span {
@@ -124,19 +123,18 @@ body {
   margin-block: 24px;
 }
 .our_plants_card_box {
-  border: 1px solid orangered;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
 .our_plants_card {
   width: 270px;
   height: fit-content;
-  border: 1px solid purple;
 }
 .img_box {
   margin-bottom: 20px;
 }
-.card_title, .card_subtitle {
+.card_title,
+.card_subtitle {
   font-family: var(--font-inter);
   font-size: var(--font22px);
   color: var(--black01);
@@ -161,9 +159,7 @@ body {
 
 /*? Main section Ends here  */
 
-
-
-/*? Responsive Media Query for Small devices */ 
+/*? Responsive Media Query for Small devices */
 
 @media screen and (max-width: 576px) {
   .container {
@@ -176,7 +172,7 @@ body {
   .nav_logo img {
     width: 84px;
   }
-  .cart_icon span{
+  .cart_icon span {
     margin-right: 8px;
     font-size: 20px;
   }
@@ -204,10 +200,34 @@ body {
     width: 100%;
     height: 245px;
   }
+  .our_plants_section {
+    margin-block: 60px;
+  }
+  .our_plants_title {
+    font-size: 1.5rem;
+  }
+  .our_plants_subtitle {
+    width: 86%;
+    font-size: 0.9rem;
+  }
+  .our_plants_card_box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .our_plants_card {
+    width: 100%;
+    height: fit-content;
+  }
+  .img_box img {
+    width: 100%;
+  }
+  .card_title,
+  .card_subtitle {
+    font-size: 1rem;
+  }
 }
-/*? Responsive Media Query for Small devices */ 
+/*? Responsive Media Query for Small devices */
 
-/*? Responsive Media Query for Medium devices */ 
+/*? Responsive Media Query for Medium devices */
 @media screen and (min-width: 577px) and (max-width: 999px) {
   .container {
     max-width: 96%;
@@ -233,6 +253,30 @@ body {
   .banner_img img {
     width: 100%;
     height: 245px;
+  }
+  .our_plants_section {
+    margin-bottom: 50px;
+  }
+  .our_plants_title {
+    font-size: 2.2rem;
+  }
+  .our_plants_subtitle {
+    width: 86%;
+    font-size: 1.1rem;
+  }
+  .our_plants_card_box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .our_plants_card {
+    width: 100%;
+    height: fit-content;
+  }
+  .img_box img {
+    width: 100%;
+  }
+  .card_title,
+  .card_subtitle {
+    font-size: 1.1rem;
   }
 }
 /*? Responsive Media Query for Medium devices */
