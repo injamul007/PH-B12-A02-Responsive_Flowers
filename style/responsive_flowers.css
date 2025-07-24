@@ -74,7 +74,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   height: 460px;
-  margin-block: 60px;
+  margin-block: 40px;
 }
 .banner_info {
   width: 570px;
@@ -99,6 +99,68 @@ body {
 }
 /*? Banner section Ends here */
 /*? header section Ends here */
+
+/*? Main section Starts here  */
+/*? Our Plants section starts here */
+.our_plants_section {
+  text-align: center;
+  border: 1px solid orange;
+  margin-block: 130px;
+}
+.our_plants_title span {
+  color: var(--orang01);
+}
+.our_plants_title {
+  font-family: var(--font-noto-serif);
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+.our_plants_subtitle {
+  width: 858px;
+  margin: 0 auto;
+  font-family: var(--font-inter);
+  color: var(--gray02);
+  font-size: var(--font22px);
+  margin-block: 24px;
+}
+.our_plants_card_box {
+  border: 1px solid orangered;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+.our_plants_card {
+  width: 270px;
+  height: fit-content;
+  border: 1px solid purple;
+}
+.img_box {
+  margin-bottom: 20px;
+}
+.card_title, .card_subtitle {
+  font-family: var(--font-inter);
+  font-size: var(--font22px);
+  color: var(--black01);
+  font-weight: 500;
+}
+.card_subtitle {
+  font-weight: 700;
+  margin-block: 14px;
+}
+.card_btn {
+  width: 100%;
+  height: 50px;
+  background-color: var(--orang01);
+  color: white;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
+/*? Our Plants section ends here */
+
+/*? Main section Ends here  */
+
 
 
 /*? Responsive Media Query for Small devices */ 
