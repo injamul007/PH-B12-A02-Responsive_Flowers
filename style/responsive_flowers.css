@@ -327,6 +327,48 @@ form input[type="submit"] {
 /*? Join section Ends here */
 /*? Main section Ends here  */
 
+/*? Footer section Starts  here */
+.footer_section {
+  height: 348px;
+  justify-content: center;
+  align-items: center;
+}
+.footer_info_details {
+  width: 1120px;
+  justify-content: space-between;
+  border: 1px solid saddlebrown;
+}
+.footer_logo_and_subtitle {
+  width: 330px;
+  height: 180px;
+}
+.footer_logo_and_subtitle img {
+  margin-bottom: 20px;
+}
+.footer_subtitle {
+  font-family: var(--font-inter);
+  font-size: var(--font22px);
+  color: var(--gray02);
+}
+.footer_links li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.footer_links a {
+  color: var(--gray02);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.social_media_links img {
+  margin-left: 24px;
+}
+.twitter_logo {
+  margin-bottom: 12px;
+}
+/*? Footer section Ends  here */
+
+
+
 /*? Responsive Media Query for Small devices */
 @media screen and (max-width: 576px) {
   .container {
