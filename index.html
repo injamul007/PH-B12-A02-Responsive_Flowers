@@ -34,27 +34,28 @@
   </head>
   <body>
     <!-- header section starts here -->
-    <header class="container">
+    <header>
       <!-- Navbar section starts here -->
-      <nav class="navbar display_flex">
+      <nav class="navbar">
         <div class="nav_logo">
           <img src="./assets/logo.png" alt="nav_logo_image" />
         </div>
-        <ul class="nav_links display_flex">
-          <div class="nav_link display_flex">
+        <ul class="nav_links">
+          <div class="nav_link">
             <li><a class="link01" href="#">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">About Us</a></li>
           </div>
           <div class="cart_icon">
-            <span class="fa-solid fa-cart-shopping"></span>
+            <span id="cart_icon" class="fa-solid fa-cart-shopping"></span>
             <span>Cart ($56)</span>
           </div>
         </ul>
       </nav>
       <!-- Navbar section Ends here -->
+
       <!-- Banner section Starts here -->
-      <section class="banner_section display_flex">
+      <section class="banner_section">
         <div class="banner_info">
           <h1 class="banner_title">
             ALWAYS
@@ -76,15 +77,16 @@
       <!-- Banner section Ends here -->
     </header>
     <!-- header section ends here -->
+
     <!-- Main section Starts here -->
     <main>
       <!-- Our Plants section starts here -->
-      <section class="our_plants_section container">
+      <section class="our_plants_section">
         <h2 class="our_plants_title"><span>Our</span> Plants</h2>
         <p class="our_plants_subtitle">
           Discover the charm and scent of nature at our fresh flower shop. From timeless roses to rare blossoms, we provide a beautiful range of handpicked, fresh-cut flowers.
         </p>
-        <div class="our_plants_card_box display_grid">
+        <div class="our_plants_card_box">
           <div class="our_plants_card">
             <div class="img_box">
               <img
@@ -192,8 +194,9 @@
         </div>
       </section>
       <!-- Our Plants section ends here-->
+
       <!-- Plants Lover section Starts here -->
-       <section class="Plants_lover_section container display_flex">
+       <section class="Plants_lover_section">
           <div class="plant_lover_img_box">
           <img src="./assets/flower-store.png" alt="Flower_store_image">
             <img class="trusted_badge" style="width: 250px;" src="./assets/trusted-badge.png" alt="trusted-badge_image">
@@ -213,14 +216,14 @@
       <!-- Plants Lover section Ends here -->
 
       <!-- Latest Deals section Starts here -->
-       <section class="Latest_deals_section container">
+       <section class="Latest_deals_section">
         <h2 class="latest_deals_title">
           <span>Latest</span> Deals
         </h2>
         <p class="latest_deals_subtitle">
           Step into a world of floral elegance at our flower boutique. From graceful roses to eye-catching blooms, we offer fresh, fragrant flowers for all tastes and occasions.
         </p>
-        <div class="latest_deals_card_box display_grid">
+        <div class="latest_deals_card_box">
           <div class="latest_deals_card bloom_card">
             <h3 class="latest_deals_card_title">
               60% Off | Bloom Plant
@@ -244,12 +247,12 @@
       <!-- Latest Deals section Ends here -->
 
       <!-- Join section Starts here -->
-       <section class="join_section display_flex">
+       <section class="join_section">
         <div class="join_info_details">
           <h2 class="join_section_title">
             Join the colorful Bunch
           </h2>
-          <form class="display_flex">
+          <form>
             <label for="Email"></label>
             <input type="email" name="Email" id="Email" placeholder="Write Email">
             <label for="submit"></label>
@@ -260,9 +263,10 @@
       <!-- Join section Ends here -->
     </main>
     <!-- Main section Ends  here -->
+
     <!-- Footer section Ends  here -->
-    <footer class="footer_section display_flex">
-      <div class="footer_info_details display_flex">
+    <footer class="footer_section">
+      <div class="footer_info_details">
         <div class="footer_logo_and_subtitle">
           <img src="./assets/logo.png" alt="footer_logo_image">
           <p class="footer_subtitle">
@@ -293,6 +297,7 @@
     </footer>
     <!-- Footer section Ends  here -->
 
+    
     <!-- Added a script tag to enable JavaScript click event functionality -->
     <script>
       const addToCartBtns = document.querySelectorAll(".card_btn");
