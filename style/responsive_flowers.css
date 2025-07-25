@@ -193,7 +193,8 @@ form input[type="submit"]:hover {
 .our_plants_subtitle {
   width: 858px;
   margin: 0 auto;
-  margin-block: 24px;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
 .our_plants_card_box {
   grid-template-columns: repeat(4, 1fr);
