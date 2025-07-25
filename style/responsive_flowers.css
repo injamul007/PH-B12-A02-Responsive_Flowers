@@ -132,6 +132,12 @@ body {
 }
 .img_box {
   margin-bottom: 20px;
+  width: 270px;
+  height: 323px;
+}
+.img_box img {
+  width: 100%;
+  height: 100%;
 }
 .card_title,
 .card_subtitle {
@@ -426,8 +432,13 @@ form input[type="submit"] {
     width: 100%;
     height: fit-content;
   }
+  .img_box {
+    width: 100%;
+    height: 100%;
+  }
   .img_box img {
     width: 100%;
+    height: 100%;
   }
   .card_title,
   .card_subtitle {
@@ -566,8 +577,13 @@ form input[type="submit"] {
     width: 100%;
     height: fit-content;
   }
+  .img_box {
+    width: 100%;
+    height: 100%;
+  }
   .img_box img {
     width: 100%;
+    height: 100%;
   }
   .card_title,
   .card_subtitle {
