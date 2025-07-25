@@ -182,7 +182,8 @@ body {
   position: absolute;
   top: -110px;
   left: 380px;
-  animation: RotatingBadge 6s linear infinite;
+  animation: RotatingBadge 8s linear infinite;
+  filter: drop-shadow(2px 2px 4px #4a4a4b);
 }
 .plants_lover_info_box {
   width: 540px;
