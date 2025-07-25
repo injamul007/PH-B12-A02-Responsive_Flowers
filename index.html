@@ -294,5 +294,17 @@
       </div>
     </footer>
     <!-- Footer section Ends  here -->
+
+    <!-- Added a script tag to enable JavaScript click event functionality -->
+    <script>
+      const addToCartBtns = document.querySelectorAll(".card_btn");
+      
+      addToCartBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          alert("Flower Added to Cart");
+        });
+      }) ;
+      </script>
+      <!-- Added a script tag to enable JavaScript click event functionality -->
   </body>
 </html>
